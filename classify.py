@@ -1,6 +1,6 @@
-from processer_regex import classify_with_regex # type: ignore
-from processer_bert import classify_with_bert # type: ignore
-from processer_llm import classify_with_llm # type: ignore
+from processerController.processer_regex import classify_with_regex # type: ignore
+from processerController.processer_bert import classify_with_bert # type: ignore
+from processerController.processer_llm import classify_with_llm # type: ignore
 
 def classify(log_messages_with_source):
     labels = []
